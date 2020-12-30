@@ -17,7 +17,10 @@ div{
 /*  border: 3px solid white*/;
   width: 200px;
 }
-
+.flex{
+  display: flex;
+  justify-content: center;
+}
 .div{
   text-align: center;
 }
@@ -28,4 +31,23 @@ div{
   color: white;
   font-family: HG正楷書体-PRO/*Hannari*/;
   font-size: 20px;
+}
+button{
+  width: 160px;
+  height: 50px;
+  background: red;
+  color: white;
+  font-family: HG正楷書体-PRO/*Hannari*/;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 40pt;
+  text-shadow: 3px 3px 2px white;
+  font-family: HG正楷書体-PRO/*Hannari*/;
+  text-align: center;
+}
+
+span{
+  display: inline-block;
 }
